@@ -1,4 +1,4 @@
-# Hodgkin–Huxley — Neuronal Excitability
+# Hodgkin–Huxley - Neuronal Excitability
 
 Explore the Hodgkin–Huxley model and understand how sodium and potassium currents help produce action potentials.
 
@@ -105,10 +105,6 @@ Spike counting counts upward crossings of 0 mV over a fixed time window.
 
 ## References
 
-- A. L. Hodgkin and A. F. Huxley (1952), *A quantitative description of membrane current and its application to conduction and excitation in nerve*, Journal of Physiology, 117(4), 500–544. [DOI](https://doi.org/10.1113/jphysiol.1952.sp004764).
-- NEURON 9.0.2, [`hh.mod`](https://github.com/neuronsimulator/nrn/blob/9.0.2/src/nrnoc/hh.mod), for the modern rate equations and conductance conventions. The reversal potentials are fixed parameters chosen for this project.
-- SciPy documentation: [`solve_ivp`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.solve_ivp.html).
-
-## License
-
-MIT, see `LICENSE`
+- A. L. Hodgkin and A. F. Huxley (1952), *A quantitative description of membrane current and its application to conduction and excitation in nerve*, Journal of Physiology, 117(4), 500–544. [DOI](https://doi.org/10.1113/jphysiol.1952.sp004764)
+- NEURON 9.0.2, [`hh.mod`](https://github.com/neuronsimulator/nrn/blob/9.0.2/src/nrnoc/hh.mod), for the modern rate equations and conductance conventions. The reversal potentials are fixed parameters chosen for this project
+- SciPy documentation: [`solve_ivp`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.solve_ivp.html)
